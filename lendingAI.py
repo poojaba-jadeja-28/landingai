@@ -30,8 +30,6 @@ def create_session_object():
 
     #print(session.sql('select current_warehouse(), current_database(), current_schema()').collect())
 
-    return session
-
 def load_data(session, table_name):
 
     #with open('style_sum.css') as f:
